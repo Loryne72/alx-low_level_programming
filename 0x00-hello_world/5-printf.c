@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -A program that print a lin using the pintf function
+ * main - A program that print a lin using the pintf function
  * Return: 0(success)
  */
 int main(void)
