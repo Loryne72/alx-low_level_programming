@@ -1,12 +1,12 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_alphabet prints the letters of the 
+ * alphabet
  */
-int main(void)
+
+int print_alphabet(void)
 {
-    print_alphabet();
-    return (0);
+    char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
+    return (write(1, alphabet, 26));
 }
