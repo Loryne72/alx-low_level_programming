@@ -1,4 +1,3 @@
-chmod a+x *
 git add .
-git commit -m '0x00-hello_world'
+git commit -m "Functions"
 git push
