@@ -1,4 +1,4 @@
-include "variadic_functions.h"
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
 /**
@@ -29,4 +29,4 @@ printf("%s", separator);
 printf("\n");
 va_end(strings);
 }
-3-print_all.c
+
